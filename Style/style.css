@@ -200,6 +200,38 @@ p {
   border-radius: 8px;
   border: none;
 }
+.from {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #c6e4d6;
+  padding: 10px 250px 90px 250px;
+  border-radius: 24px;
+  margin-top: 60px;
+  text-align: center;
+}
+.fill {
+  display: flex;
+  overflow: hidden;
+  margin: 24px 0;
+}
+.fill input {
+  flex: 1;
+  padding: 20px 380px 20px 30px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+}
+.fill .btn-from {
+  padding: 19px 30px;
+  background: #006a50;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 0 8px 8px 0;
+}
 
 .Footer {
   display: flex;
