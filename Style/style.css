@@ -23,10 +23,8 @@ nav {
 .logo {
   font-size: 32px;
   font-weight: bold;
-  font-family: Fira Sans;
 }
 .nav-btn {
-  font-family: Fira Sans;
   font-weight: bold;
   padding: 15px 30px;
   color: #006a50;
@@ -64,7 +62,6 @@ nav {
 }
 /* Pillars of "Bangladesh 2.0" section-start*/
 .Card-Header {
-  font-family: Fira Sans;
   font-weight: bold;
   font-size: 40px;
   margin-top: 80px;
@@ -78,7 +75,6 @@ nav {
   margin: 18px 12px;
   padding: 28px;
   border-radius: 16px;
-  font-family: Fira Sans;
 }
 .card-head {
   font-size: 20px;
@@ -119,9 +115,8 @@ p {
   background: white;
   background-image: url("../assets/quote-bg.png");
   background-repeat: no-repeat;
-  padding: 48px 24px;
+  padding: 48px 32px;
   border-radius: 16px;
-  font-family: Fira Sans;
 }
 .Yunus-name {
   font-size: 20px;
