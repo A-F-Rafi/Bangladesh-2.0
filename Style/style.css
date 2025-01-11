@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f1f1f3;
+  font-family: Fira Sans;
+}
+
+.continer {
+  max-width: 1280px;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+  align-items: center;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Fira Sans;
+}
+.nav-btn {
+  font-family: Fira Sans;
+  font-weight: bold;
+  padding: 15px 30px;
+  color: #006a50;
+  border: solid 1px #006a50;
+  border-radius: 8px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Fira Sans;
+  background: #c6e4d6;
+  border-radius: 24px;
+  padding: 80px;
+  margin: 32px 0;
+}
+.hero-p {
+  color: #7e7e7e;
+  font-weight: bold;
+  font-size: 24px;
+}
+.hero h1 {
+  font-size: 56px;
+  font-weight: bold;
+  margin: 16px 24px 16px 0;
+}
+.hero-btn {
+  padding: 17px 34px;
+  color: white;
+  background: #006a50;
+  font-family: Fira Sans;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+}
+/* Pillars of "Bangladesh 2.0" section-start*/
+.Card-Header {
+  font-family: Fira Sans;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+.Box {
+  display: flex;
+}
+.card {
+  background: white;
+  margin: 18px 12px;
+  padding: 28px;
+  border-radius: 16px;
+  font-family: Fira Sans;
+}
+.card-head {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+p {
+  color: #0e0e0e;
+}
+.card-color-one {
+  background: #ccdcf8;
+}
+.card-color-two {
+  background: #c6e4d6;
+}
+.card-color-three {
+  background: #f7ebcf;
+}
+
+.btn {
+  margin-top: 24px;
+  padding: 11px 20px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+.btn-color-one {
+  background: #5490f5;
+}
+.btn-color-two {
+  background: #09a15c;
+}
+.btn-color-three {
+  background: #ffc239;
+}
+.Yunus {
+  margin-top: 80px;
+  background: white;
+  background-image: url("../assets/quote-bg.png");
+  background-repeat: no-repeat;
+  padding: 48px 24px;
+  border-radius: 16px;
+  font-family: Fira Sans;
+}
+.Yunus-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 16px 0 8px 0;
+}
+
+/* Recent News section-start */
+.Recent {
+  margin-top: 80px;
+}
+
+.Recent-news-box {
+  display: flex;
+  padding: 48px;
+  background: white;
+  margin-top: 24px;
+  border-radius: 16px;
+}
+.satelite-box {
+  margin: 24px;
+}
+.date {
+  margin: 12px 0;
+}
+.Recent-news-box .satelite-img {
+  border-radius: 16px;
+}
+.satelite-box-head {
+  font-size: 32px;
+  font-weight: bold;
+}
+.btn-color-green {
+  background: #006a50;
+}
+
+/* Donate Today section start */
+.Donate-Today {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Donate {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+.taka {
+  padding: 40px;
+  margin: 20px;
+
+  font-size: 40px;
+  font-weight: bold;
+  background: white;
+  border-radius: 16px;
+  border: 1px solid #e7e6e6;
+}
+.text-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.text-btn textarea {
+  padding: 15px 450px;
+  border: 1px solid #e7e6e6;
+}
+.btn-don {
+  margin-top: 24px;
+  padding: 17px 34px;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  background: white;
+  padding: 50px 0;
+}
+.line {
+  height: 2px;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  background: #f1f1f3;
+}
+.footer-ban {
+  margin-bottom: 32px;
+}
+.footer-icon {
+  margin-top: 32px;
+}
+.footer-icon img {
+  margin: 0 12px;
+}
