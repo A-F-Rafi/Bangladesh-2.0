@@ -188,12 +188,15 @@ p {
 .taka {
   padding: 40px;
   margin: 20px;
-
   font-size: 40px;
   font-weight: bold;
   background: white;
   border-radius: 16px;
   border: 1px solid #e7e6e6;
+  transition: 0.4s;
+}
+.taka:hover {
+  background: #c6e4d6;
 }
 .text-btn {
   display: flex;
