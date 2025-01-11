@@ -30,6 +30,11 @@ nav {
   color: #006a50;
   border: solid 1px #006a50;
   border-radius: 8px;
+  transition: 0.4s;
+}
+.nav-btn:hover {
+  background: #006a50;
+  color: white;
 }
 .hero {
   display: flex;
@@ -59,6 +64,10 @@ nav {
   font-size: 18px;
   border-radius: 8px;
   border: none;
+  transition: 0.4s;
+}
+.hero-btn:hover {
+  background: #018564;
 }
 /* Pillars of "Bangladesh 2.0" section-start*/
 .Card-Header {
@@ -100,6 +109,10 @@ p {
   color: white;
   border-radius: 8px;
   border: none;
+  transition: 0.4s;
+}
+.btn:hover {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .btn-color-one {
   background: #5490f5;
@@ -151,6 +164,10 @@ p {
 }
 .btn-color-green {
   background: #006a50;
+  transition: 0.4s;
+}
+.btn-color-green:hover {
+  background: #018564;
 }
 
 /* Donate Today section start */
@@ -226,6 +243,10 @@ p {
   font-weight: 600;
   border: none;
   border-radius: 0 8px 8px 0;
+  transition: 0.4s;
+}
+.fill .btn-from:hover {
+  background: #018564;
 }
 
 .Footer {
